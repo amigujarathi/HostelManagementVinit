@@ -1,0 +1,975 @@
+.version.general /* version checker */
+{
+	color: #00001B;
+	background-color: #6757F6;
+}
+
+.html
+{
+	background-color: #EEEEEE;
+}
+.buttn{
+height:26px; 
+width:72px; 
+color:#000000; 
+font-family: roboto; 
+font-size:13px; 
+background-color:#B3B3B3; 
+border:#B3B3B3;
+}
+#page
+{
+	z-index: 1;
+	width: 1280px;
+	min-height: 799px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pu91
+{
+	width: 0.01px;
+	margin-right: -10000px;
+}
+
+#u91
+{
+	z-index: 2;
+	width: 285px;
+	padding-top: 30px;
+	padding-bottom: 652px;
+	margin-right: -10000px;
+}
+
+#u99
+{
+	z-index: 4;
+	width: 106px;
+	margin-left: 86px;
+}
+
+#u336
+{
+	z-index: 17;
+	width: 285px;
+	padding-bottom: 22px;
+	margin-top: 31px;
+}
+
+#u339
+{
+	z-index: 22;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 14px;
+}
+
+#u338-4
+{
+	z-index: 18;
+	width: 193px;
+	min-height: 17px;
+	margin-right: -10000px;
+	margin-top: 21px;
+	left: 49px;
+}
+
+#u346-4
+{
+	z-index: 23;
+	width: 21px;
+	min-height: 18px;
+	margin-right: -10000px;
+	margin-top: 21px;
+	left: 257px;
+}
+
+#u401
+{
+	z-index: 27;
+	width: 285px;
+	margin-right: -10000px;
+	margin-top: 805px;
+}
+
+#u408
+{
+	z-index: 28;
+	width: 285px;
+	padding-bottom: 8px;
+	margin-right: -10000px;
+}
+
+#pu405-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 11px;
+	margin-left: 23px;
+}
+
+#u405-4
+{
+	z-index: 29;
+	width: 84px;
+	min-height: 12px;
+}
+
+#u406-4
+{
+	z-index: 45;
+	width: 54px;
+	min-height: 12px;
+	margin-top: 3px;
+}
+
+#u403-4
+{
+	z-index: 37;
+	width: 32px;
+	min-height: 12px;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 195px;
+}
+
+#u402-4
+{
+	z-index: 41;
+	width: 29px;
+	min-height: 12px;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 228px;
+}
+
+#u407-4
+{
+	z-index: 33;
+	width: 82px;
+	min-height: 12px;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 106px;
+}
+
+#u404-4
+{
+	z-index: 49;
+	width: 82px;
+	min-height: 12px;
+	margin-right: -10000px;
+	margin-top: 26px;
+	left: 77px;
+}
+
+#pu92
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: -1px;
+	margin-left: 285px;
+}
+
+#u92
+{
+	z-index: 3;
+	width: 995px;
+	padding-bottom: 13px;
+}
+
+#pu105
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 18px;
+	margin-left: 791px;
+}
+
+#u105
+{
+	z-index: 6;
+	width: 50px;
+	height: 50px;
+	margin-left: 16px;
+}
+
+#u127-4
+{
+	z-index: 9;
+	width: 87px;
+	min-height: 18px;
+	margin-top: 1px;
+}
+
+#pu123
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 24px;
+	margin-left: 905px;
+}
+
+#u123
+{
+	z-index: 7;
+	width: 35px;
+	margin-left: 5px;
+}
+
+#u129-4
+{
+	z-index: 13;
+	width: 44px;
+	min-height: 17px;
+	margin-top: 10px;
+}
+
+#pu439
+{
+	width: 0.01px;
+	margin-left: 11px;
+	margin-top: 44px;
+}
+
+#u439
+{
+	z-index: 139;
+	width: 647px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u409
+{
+	z-index: 140;
+	width: 647px;
+	background-color: transparent;
+	padding-bottom: 8px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u410
+{
+	z-index: 141;
+	width: 635px;
+	background-color: #FFFFFF;
+	padding-bottom: 5.000000000001364px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 5px;
+	left: 6px;
+}
+
+#u411
+{
+	z-index: 142;
+	width: 635px;
+	background-color: #E5E5E5;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#u413
+{
+	z-index: 144;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 12px;
+	left: 19px;
+	background: transparent url("../images/srvcasset_settingsbox.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u420-4
+{
+	z-index: 145;
+	width: 200px;
+	min-height: 20px;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 55px;
+}
+
+#u425
+{
+	z-index: 159;
+	width: 626px;
+	height: 518px;
+	margin-left: 3px;
+	margin-top: 38px;
+	position: relative;
+}
+
+#u412
+{
+	z-index: 143;
+	width: 635px;
+	background-color: #E5E5E5;
+	padding-bottom: 9px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 47px;
+	left: 6px;
+}
+
+#u421
+{
+	z-index: 149;
+	width: 179px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 8px;
+	left: 148px;
+}
+
+#u423-4
+{
+	z-index: 151;
+	width: 175px;
+	min-height: 19px;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u422
+{
+	z-index: 150;
+	width: 179px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 55px;
+	left: 333px;
+}
+
+#u424-4
+{
+	z-index: 155;
+	width: 175px;
+	min-height: 19px;
+	background-color: transparent;
+	font-size: 15px;
+	text-align: right;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+	left: 4px;
+}
+
+#u420,#u423,#u424
+{
+	font-size: 15px;
+}
+
+#pu350
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 1px;
+	margin-left: 653px;
+}
+
+#u350
+{
+	z-index: 53;
+	width: 317px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u355
+{
+	z-index: 54;
+	width: 317px;
+	background-color: transparent;
+	padding-bottom: 7px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u381
+{
+	z-index: 55;
+	width: 305px;
+	background-color: #FFFFFF;
+	padding-bottom: 24px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 7px;
+}
+
+#u390
+{
+	z-index: 56;
+	width: 305px;
+	background-color: #E5E5E5;
+	padding-bottom: 12px;
+	position: relative;
+}
+
+#u377
+{
+	z-index: 126;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 20px;
+	background: transparent url("../images/srvcasset_loginfo.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u382-4
+{
+	z-index: 58;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 51px;
+}
+
+#u383
+{
+	z-index: 74;
+	width: 258px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 24px;
+	margin-top: 48px;
+	position: relative;
+}
+
+#u384
+{
+	z-index: 75;
+	width: 258px;
+	background-color: transparent;
+	padding-bottom: 5px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u389
+{
+	z-index: 76;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 6px;
+	left: 5px;
+	background: transparent url("../images/srvcasset_update.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u386
+{
+	z-index: 77;
+	width: 135px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 35px;
+}
+
+#u388-4
+{
+	z-index: 78;
+	width: 135px;
+	min-height: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u385
+{
+	z-index: 82;
+	width: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 228px;
+}
+
+#u387-4
+{
+	z-index: 83;
+	width: 20px;
+	min-height: 20px;
+	background-color: transparent;
+	text-align: right;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u363
+{
+	z-index: 87;
+	width: 258px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 24px;
+	margin-top: 12px;
+	position: relative;
+}
+
+#u368
+{
+	z-index: 88;
+	width: 258px;
+	background-color: transparent;
+	padding-bottom: 6px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u365
+{
+	z-index: 89;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 5px;
+	left: 5px;
+	background: transparent url("../images/srvcasset_upload-u365-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u364
+{
+	z-index: 90;
+	width: 135px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 35px;
+}
+
+#u366-4
+{
+	z-index: 91;
+	width: 135px;
+	min-height: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u369
+{
+	z-index: 95;
+	width: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 228px;
+}
+
+#u367-4
+{
+	z-index: 96;
+	width: 20px;
+	min-height: 20px;
+	background-color: transparent;
+	text-align: right;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u356
+{
+	z-index: 113;
+	width: 258px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 24px;
+	margin-top: 16px;
+	position: relative;
+}
+
+#u357-4
+{
+	z-index: 114;
+	width: 20px;
+	min-height: 20px;
+	background-color: transparent;
+	text-align: right;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 228px;
+}
+
+#u362
+{
+	z-index: 118;
+	width: 258px;
+	background-color: transparent;
+	padding-bottom: 5px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u358
+{
+	z-index: 119;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 6px;
+	left: 5px;
+	background: transparent url("../images/srvcasset_addagent-u358-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u361
+{
+	z-index: 120;
+	width: 135px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 35px;
+}
+
+#u360-4
+{
+	z-index: 121;
+	width: 135px;
+	min-height: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u359
+{
+	z-index: 125;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 228px;
+}
+
+#u370
+{
+	z-index: 100;
+	width: 258px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 24px;
+	margin-top: 14px;
+	position: relative;
+}
+
+#u371
+{
+	z-index: 101;
+	width: 258px;
+	background-color: transparent;
+	padding-bottom: 5px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u372
+{
+	z-index: 102;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 6px;
+	left: 5px;
+	background: transparent url("../images/srvcasset_addtemplate-u372-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u374
+{
+	z-index: 103;
+	width: 135px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 35px;
+}
+
+#u376-4
+{
+	z-index: 104;
+	width: 135px;
+	min-height: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u375
+{
+	z-index: 108;
+	width: 20px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 228px;
+}
+
+#u373-4
+{
+	z-index: 109;
+	width: 20px;
+	min-height: 20px;
+	background-color: transparent;
+	text-align: right;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u354
+{
+	z-index: 57;
+	width: 305px;
+	background-color: #E5E5E5;
+	padding-bottom: 10px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 46px;
+	left: 7px;
+}
+
+#u351
+{
+	z-index: 62;
+	width: 96px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 8px;
+	left: 52px;
+}
+
+#u353
+{
+	z-index: 63;
+	width: 96px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u352-4
+{
+	z-index: 64;
+	width: 96px;
+	min-height: 12px;
+	background-color: transparent;
+	font-size: 15px;
+	color: #A0A0A0;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u378
+{
+	z-index: 68;
+	width: 96px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 54px;
+	left: 155px;
+}
+
+#u380
+{
+	z-index: 69;
+	width: 96px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u379-4
+{
+	z-index: 70;
+	width: 96px;
+	min-height: 12px;
+	background-color: transparent;
+	font-size: 15px;
+	text-align: right;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u391
+{
+	z-index: 127;
+	width: 317px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-top: 6px;
+	position: relative;
+}
+
+#u396
+{
+	z-index: 128;
+	width: 317px;
+	background-color: transparent;
+	padding-bottom: 8px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u392
+{
+	z-index: 129;
+	width: 305px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 5px;
+	left: 6px;
+}
+
+#u392_position_content
+{
+	padding-bottom: 20px;
+}
+
+#u395
+{
+	z-index: 130;
+	width: 305px;
+	background-color: #E5E5E5;
+	padding-bottom: 8px;
+	position: relative;
+}
+
+#u393
+{
+	z-index: 131;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 12px;
+	left: 21px;
+	background: transparent url("../images/srvcasset_reports-u393-fr.png") no-repeat center center;
+	background-size: cover;
+}
+
+#u394-4
+{
+	z-index: 132;
+	width: 80px;
+	min-height: 21px;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 56px;
+}
+
+#u399
+{
+	z-index: 136;
+	width: 285px;
+	height: 70px;
+	margin-left: 11px;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u398
+{
+	z-index: 137;
+	width: 285px;
+	height: 70px;
+	margin-left: 11px;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u397
+{
+	z-index: 138;
+	width: 285px;
+	height: 70px;
+	margin-left: 11px;
+	margin-top: 5px;
+	position: relative;
+}
+
+.ie #u425,.ie #u359,.ie #u399,.ie #u398,.ie #u397
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+body
+{
+	position: relative;
+	min-width: 1280px;
+}
+

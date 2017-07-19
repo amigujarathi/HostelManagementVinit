@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:58:55 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.selfie.dto.StudentLogin" table="student_login" catalog="hostel">
+        <id name="rollNumber" type="java.lang.Integer">
+            <column name="ROLL_NUMBER" />
+            <generator class="identity" />
+        </id>
+        <property name="adharcardNumber" type="string">
+            <column name="ADHARCARD_NUMBER" length="145"/>
+        </property>
+        <property name="studentName" type="string">
+            <column name="STUDENT_NAME" length="200" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" length="45" />
+        </property>
+        <property name="mobileNumber" type="string">
+            <column name="MOBILE_NUMBER" length="45" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="EMAIL_ID" length="200" />
+        </property>
+        <property name="parentMobile" type="string">
+            <column name="PARENT_MOBILE" length="145" />
+        </property>
+        <property name="address" type="string">
+            <column name="ADDRESS" length="345" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://CMS_Selfie_Check" xmlns:tns="http://CMS_Selfie_Check">
+    <xsd:include schemaLocation="CMS_Selfie_Check.xsd"/>
+    <xsd:element xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" ibmSchExtn:docRoot="true" name="checkCust">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Sys" nillable="true" type="tns:SysRequestType"/>
+                <xsd:element name="CustInfo" nillable="true" type="tns:CustInfoType"/>
+            </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" ibmSchExtn:docRoot="true" name="checkCustResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Sys" nillable="true" type="tns:SysResponseType"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+          <xsd:complexType name="SysRequestType">
+    	<xsd:sequence>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="TransID" type="xsd:string">
+    			<xsd:annotation>
+    				<xsd:documentation>Unique idenfifier</xsd:documentation>
+    			</xsd:annotation>
+      </xsd:element>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="RequestorID" type="xsd:string">
+    			<xsd:annotation>
+    				<xsd:documentation/>
+    			</xsd:annotation>
+      </xsd:element>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="DateTime" type="xsd:dateTime"/>
+    	</xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="SysResponseType">
+    	<xsd:sequence>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="TransID" type="xsd:string"/>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="DateTime" type="xsd:dateTime"/>
+    		<xsd:element maxOccurs="1" minOccurs="1" name="Code" type="xsd:int"/>
+    		<xsd:element maxOccurs="1" minOccurs="0" name="Description" type="xsd:string"/>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="CustInfoType">
+    	<xsd:sequence>
+    		<xsd:element name="CustomerID" type="xsd:string" />
+    		<xsd:element name="NationalID">
+    			<xsd:simpleType>
+    				<xsd:restriction base="xsd:string">
+    					<xsd:minLength value="9"></xsd:minLength>
+    					<xsd:maxLength value="20"></xsd:maxLength>
+    				</xsd:restriction>
+    			</xsd:simpleType>
+    		</xsd:element>
+    		<xsd:element name="Mobile" type="xsd:string" />
+    		<xsd:element name="TypeOfCard">
+    			<xsd:simpleType>
+    				<xsd:restriction base="xsd:string">
+    					<xsd:enumeration value="New"></xsd:enumeration>
+    					<xsd:enumeration value="Existing"></xsd:enumeration>
+    					<xsd:enumeration value="Supplementary"></xsd:enumeration>
+    				</xsd:restriction>
+    			</xsd:simpleType>
+    		</xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

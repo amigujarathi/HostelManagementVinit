@@ -1,0 +1,103 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+body{
+font-family:roboto;
+}
+#u91
+{
+	background-color: #34495E;
+	position: relative;
+}
+
+#u336
+{
+	background-color: #64676B;
+	position: relative;
+}
+
+#u339
+{
+	position: relative;
+	background: transparent url("../images/srvcasset_activerole-u339-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u338-4
+{
+	background-color: transparent;
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 18px;
+	position: relative;
+}
+
+#u338
+{
+	color: #FFFFFF;
+}
+
+#u346-4
+{
+	background-color: transparent;
+	text-align: center;
+	position: relative;
+}
+
+#u401
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u405-4,#u406-4,#u403-4,#u402-4,#u407-4,#u404-4
+{
+	background-color: transparent;
+	font-size: 11px;
+	color: #6B7888;
+	line-height: 13px;
+	position: relative;
+}
+
+#u408,#u92
+{
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+#u105
+{
+	border-radius: 25px;
+	position: relative;
+	background: transparent url("../images/img1.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+#u99,#u123
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u127-4,#u129-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #37B6D9;
+	position: relative;
+}
+#u608
+{
+	z-index: 224;
+	width: 287px;
+	min-height: 425px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 99px;
+}

@@ -1,0 +1,1017 @@
+@charset "utf-8";
+/* CSS Document */
+/*Common Form Page Styles*/
+
+/* mac hide \*/
+html,body{height:100%;width:100%;}
+/* end hide */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+/*#yellow_line{
+	height:2px;
+	background-color:#e77817;
+	width:100%;
+	float:left;
+	font-size:1px;
+	margin-top:2px;
+}*/
+
+#beige_line{
+	background-color:#efefe0;
+	width:100%;
+	float:left;
+	font-size:1px;
+	margin-top:2px;
+}
+.blue_unbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #004b68;
+}
+/*blue unbold class added ends*/
+/*grey_cop added starts*/
+.grey_unbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #969594;
+	font-weight:normal;
+}
+#outer{
+	width:100%;
+	display:table;
+	text-align:center;
+	height:auto;
+	
+}
+#container {
+	text-align: center;
+	position:relative;
+	display:table-cell;
+	height:auto;
+
+
+}
+#inner {
+	width:998px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	
+}
+
+#main_content{
+	width:auto;
+	
+
+}
+#center-content{
+	float:left;
+	margin-top:15px;
+	margin-bottom:36px;
+	padding-left:2px;
+	height:auto;
+	
+
+	
+}
+/*.clear {
+clear: both and height: 0
+} */
+
+/*footer styles added by Swetha*/
+#footer{
+width:1003px;
+float:left;
+padding-top:24px;
+padding-bottom:24px;
+}
+
+#icici_branches{
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#004b68;
+height:30px;
+}
+
+#icici_branches a{ 
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#004b68;
+text-decoration:none;
+}
+
+#footer_links{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#514A47;
+	height:24px;
+}
+
+#footer_links a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#514A47;
+	text-decoration:none;
+}
+
+#yellow_band{
+	background:url(http://www.icicibank.com/sitemap.page) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#ffffff;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:2px;
+	
+}
+/*footer styles end*/
+/*font styles*/
+.text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+}
+.text_1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+}
+.text_small{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-weight:normal;
+}
+.white_bold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.white_bold2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.maroon_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+}
+.white_link{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+	text-decoration:none;
+}
+.maroon_bold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#a41c2b;
+	font-weight:bold;
+}
+.grey_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#838281;
+	font-weight:bold;
+}
+/*Font Styles end*/
+
+/*Common Form Page Styles end*/
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+/*Find ATM/Branch styles*/
+#content_show{
+	float:left;
+	width:755px;
+	height:350px;
+}
+#heading{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#A41C2B;
+	margin-left:25px;
+	margin-bottom:10px;
+	margin-top:10px;
+	float:left;
+	width:500px;
+	text-align:left;
+}
+#background_box{
+	background:url(http://www.icicibank.com/sitemap.page) no-repeat;
+	padding:30px 20px 30px 20px;
+	width:535px;
+	height:auto;
+	float:left;
+	text-align:left;
+	}
+	
+	
+/*#background_box{
+	background:url(../images/bg_find_atm_branch.gif) no-repeat;
+	padding:30px 110px 30px 110px;
+	width:534px;
+	height:auto;
+	float:left;
+
+	text-align:left;
+	}*/
+
+#content_inner{
+	float:left;
+	width:230px;
+	height:auto;
+}
+#content_head{
+	float:left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#a41c2b;
+	text-align:left;
+	height:24px;
+	}
+#content_button{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+#content_text{
+	float:left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-align:justify;
+}
+#content_text_link{
+	float:left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	text-align:justify;
+}
+#content_text a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+}
+#content_spacer{
+	float:left;
+	width:70px;
+	height:257px;
+}
+
+#content_hidden{
+	float:left;
+	width:700px;
+	visibility:hidden;
+	margin-left:22px;
+	margin-right:22px;
+	background:url(http://www.icicibank.com/sitemap.page);
+	height:286px;
+}
+#div_close{
+	float:right;
+	padding-top:2px;
+	padding-right:2px;
+}
+#div_form{
+	float:left;
+	width:533px;
+	padding-left:78px;
+	padding-top:25px;
+	text-align:left;
+}
+#div_form select{
+	width:120px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.textfield{
+	width:527px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;
+	
+}
+#link_bottom{
+	float:left;
+	width:680px;
+	text-align:right;
+	padding-right:10px;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+	font-weight:bold;
+}
+#link_bottom a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#content_spacer_loc{
+	float:left;
+	width:85px;
+	height:422px;
+}
+
+#content_inner_loc{
+	float:left;
+	width:252px;
+	height:422px;
+}
+#background_box_loc{
+	background:url(http://www.icicibank.com/sitemap.page) no-repeat;
+	padding:24px 10px 30px 35px;
+	width:710px;
+	height:463px;
+	float:left;
+	text-align:left;
+	}
+/*Find ATM/Branch styles end*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*Email us styles*/
+#content_show2{
+	float:left;
+	width:755px;
+	height:308px;
+}
+
+#background_box1{
+	/*background:url(../images/emailus_bg.gif) no-repeat;*/
+	/*padding:20px 35px 30px 35px;*/
+	padding-bottom:30px;
+	width:751px;
+	height:245px;
+	float:left;
+	text-align:left;
+}	
+#background_box_2{
+	float:left;
+	z-index:500;
+	margin-top:-49PX;
+	/*background:url(../images/emailus_bg_2.gif) no-repeat;*/
+	/*padding:20px 35px 30px 35px;*/
+	padding-top:20px;
+	padding-bottom:30px;
+	width:751px;
+	height:130px;
+	text-align:left;
+	visibility:hidden;
+	}
+/*Email us styles end*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*Do Not Call Registration page styles*/
+
+#content_show3{
+	float:left;
+	width:751px;
+	
+}
+#content_show4{
+	float:left;
+	width:751px;
+	height:750px;
+}
+#background_box_d1{
+	/*background:url(../images/donocall_bg_1.gif) no-repeat;*/
+	/*padding:20px 35px 30px 35px;*/
+	width:990px;
+	float:left;
+	text-align:left;
+}
+#background_box_d2{
+	/*background:url(../images/donocall_bg_2.gif) no-repeat;
+	padding:20px 35px 30px 35px;*/
+	width:990px;
+	height:530px;
+	float:left;
+	text-align:left;
+}	
+#background_box_d{
+	/*background:url(../images/donocall_bg.gif) no-repeat;
+	padding:20px 35px 30px 35px;*/
+	width:990px;
+	height:auto;
+	float:left;
+	text-align:left;
+}	
+#content_inner2{
+	float:left;
+	width:680px;
+	height:435px;
+	padding:0px 35px 0px 35px;
+}
+#content_inner3{
+	float:left;
+	padding:0px 35px 0px 35px;
+	width:660px;
+	height:620px;
+}
+#content_spacer2{
+	clear:both;
+	font-size:1px;
+	width:660px;
+}
+
+#content_inner_sc{
+	float:left;
+	width:680px;
+	padding:0px 35px 0px 15px;
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #d1d0c4;
+	scrollbar-track-color: #d1d0c4;
+	scrollbar-arrow-color: #a41c2b;
+}
+
+
+#center-content_d{
+	float:left;
+	margin-top:56px;
+	margin-bottom:36px;
+	padding-left:123px;
+	width:755px;
+	height:685px;
+}
+/*Do Not Call Registration page styles end*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*Customer feedback styles*/
+
+#inner-content{
+	float:left;
+	margin-top:56px;
+	margin-bottom:36px;
+	padding-left:85px;
+	width:450px;
+	height:680px;
+}
+#content_show4{
+	float:left;
+	width:450px;
+	height:100px;
+}
+#heading2{
+	margin-bottom:20px;
+	float:left;
+	width:450px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+}
+
+#feedback_opt{
+	width:450px;
+	height:50px;
+	float:left;
+	text-align:left;
+}
+#div_text{
+	float:left;
+	width:450px;
+	margin-top:15px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+}
+#div_button{
+	float:left;
+	margin-top:20px;
+	width:450px;
+	text-align:left;
+	}
+#content_hidden2{
+	float:left;
+	visibility:hidden;
+	width:450px;
+	height:100px;
+}
+/*Customer feedback styles end*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*Customer care styles */
+#content_show5{
+	float:left;
+	width:755px;
+	height:350px;
+}
+
+#background_box_cc{
+	background:url(http://www.icicibank.com/sitemap.page) no-repeat;
+	padding:20px 25px 30px 25px;
+	width:720px;
+	height:477px;
+	float:left;
+	text-align:left;
+	}
+#content_inner3{
+	float:left;
+	width:620px;
+	height:257px;
+	float:left;
+	margin-top:30px;
+	padding-left:35px;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #d1d0c4;
+	scrollbar-track-color: #d1d0c4;
+	scrollbar-arrow-color: #a41c2b;
+}
+#content_inner4{
+	float:left;
+	width:703px;
+	height:95px;
+	float:left;
+	margin-top:15px;
+	}
+#content_head2{
+	float:left;
+	width:550px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#a41c2b;
+	text-align:left;
+	margin-left:65px;
+	height:44px;
+	}
+/*Customer Care styles end*/
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*Customer complaints styles*/
+#background_box_comp{
+	background:url(http://www.icicibank.com/sitemap.page) no-repeat;
+	padding:88px 0 0 92px;
+	width:665px;
+	height:161px;
+	float:left;
+	text-align:left;
+	}
+	
+#content_inner_comp{
+	float:left;
+	width:288px;
+}
+#content_text2{
+	float:left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#A41C2B;
+	text-align:center;
+}
+#content_text2 a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+}
+#content_text1{
+	float:left;
+	width:70%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	text-align:center;
+}
+#content_text1 a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#A41C2B;
+	text-decoration:underline;
+}
+#content_button2{
+	float:left;
+	width:100%;
+}
+#content_hidden_form{
+	margin-left:20px;
+	float:left;
+	width:705px;
+	height:272px;
+	/*background-image:url(../images/bg_compliments_complaints_form.gif);
+	background-repeat:no-repeat;*/
+	visibility:hidden;
+}
+#content_hidden_done{
+	text-align:center;
+	margin-top:-272px;
+	margin-left:20px;
+	float:left;
+	width:705px;
+	height:272px;
+	/*background-image:url(../images/bg_compliments_complaints_form.gif);
+	background-repeat:no-repeat;*/
+	visibility:hidden;
+}
+#content_hidden_click_here{
+	margin-top:-272px;
+	margin-left:20px;
+	float:left;
+	width:705px;
+	height:272px;
+	/*background-image:url(../images/bg_compliments_complaints_form.gif);
+	background-repeat:no-repeat;*/
+	visibility:hidden;
+}
+#content_hidden_cust_care{
+	/*margin-top:-272px;*/
+	margin-left:20px;
+	float:left;
+	width:705px;
+	height:272px;
+	/*background-image:url(../images/bg_compliments_complaints_form.gif);
+	background-repeat:no-repeat;*/
+	visibility:hidden;
+}
+#scroll{
+	overflow:auto;
+	width:620px;
+	height:200px;
+	scrollbar-width: 1px;
+	scrollbar-face-color: #d1d0c4;
+	/*scrollbar-shadow-color: #ffffff;*/
+	scrollbar-highlight-color: #ffffff;
+	/*scrollbar-3dlight-color: #ffffff;*/
+	/*scrollbar-darkshadow-color: #ffffff;*/
+	scrollbar-track-color: #a41c2b;
+	scrollbar-arrow-color: #a41c2b;
+
+}
+#div_close{
+	float:right;
+	padding-top:2px;
+	padding-right:2px;
+}
+
+.textarea{
+	width:316px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;
+	
+}
+.textarea1{
+	width:181px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;
+	
+}
+.textarea2{
+	width:131px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;	
+}
+.textarea3{
+	width:628px;
+	height:78px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;	
+}
+.textarea4{
+	width:43px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	background-color:#FFFFFF;	
+}
+
+/*Customer complaints styles end*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*Compliments styles*/
+
+#content_hidden_click_here{
+	margin-top:-272px;
+	margin-left:20px;
+	float:left;
+	width:705px;
+	height:272px;
+	/*background-image:url(../images/bg_compliments_complaints_form.gif);
+	background-repeat:no-repeat;*/
+	visibility:hidden;
+}
+
+#background_box_compli{
+	background:url(http://www.icicibank.com/sitemap.page) no-repeat;
+	padding:88px 0 0 92px;
+	width:665px;
+	height:161px;
+	float:left;
+	text-align:left;
+	}
+
+/*compliments styles end*/
+/*rss styles*/
+
+#content_rss{
+	float:left;
+	width:751px;
+	height:420px;
+}
+.rss_heading{	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#a41c2b;
+	font-weight:bold;
+}
+.rss_blueheading{	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#064c6c;
+	font-weight:bold;
+	text-decoration:none;
+}
+.rss_text{	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	line-height:18px;
+}
+.rss_text a{	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+	line-height:18px;
+}
+.rss_red{	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a41c2b;
+	font-weight:bold;
+	line-height:18px;
+}
+.textbox_rss{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:275px;
+}
+.table {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+.table a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#A41C2B;
+	text-decoration:none;
+}
+.table a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#A41C2B;
+	text-decoration:none;
+}
+
+/*rss styles end*/
+
+/*service_charges*/
+#service_charge{
+	float:left;
+	width:680px;
+	height:435px;
+	padding:0px 35px 0px 35px;
+}
+#top_tab {
+padding-left:20px;
+padding-bottom:5px;
+width:700px;
+}
+#center-content_ser{
+	float:left;
+	margin-top:10px;
+	margin-bottom:36px;
+	padding-left:50px;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	/*text-align: left;*/
+	line-height:15px;
+}
+table.tabels {
+    border-width: 1px;
+	border-spacing:0px;
+	border-style: solid;
+	border-color: #eb922c;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	/*text-align: left;*/
+	line-height:15px;
+  }
+
+table.tabels th {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: #eb922c;
+	background-color: white;
+}
+#right{
+float:right;
+width:200px;
+}
+.tabels_select {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: #eb922c;
+	background-color: #a41c2b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/*font-weight:bold;*/
+	color:#FFFFFF;
+	text-decoration: none;
+	/*text-align: left;*/
+}
+.tabels_select2 {
+	background-color: #a41c2b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration: none;
+	padding: 0px;
+	/*text-align: left;*/
+}
+
+.tabels_select1 {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: #eb922c;
+	background-color: #eb922c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration: none;
+	/*text-align: left;*/
+}
+
+table.tabels td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #eb922c;
+
+
+
+
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	text-align: left;
+	line-height:18px;
+}
+table.bills {
+    border-width: 1px;
+	border-spacing:0px;
+	border-style: solid;
+	border-color: #efab5c;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	text-align: left;
+	line-height:18px;
+	margin-left:90px;
+  }
+  
+table.bills a{
+   
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color: #a41c2b;
+	text-decoration: none;
+	
+  }
+  
+table.bills th {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	/*border-color: #acacac;*/
+	background-color: white;
+}
+table.bills td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #efab5c;
+}
+
+
+table.bills2 {
+    border-width: 0px;
+	border-spacing:0px;
+
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	text-align: left;
+	line-height:18px;
+	margin-left:90px;
+  }
+  
+table.bills2 a{
+   
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color: #a41c2b;
+	text-decoration: none;
+	
+  }
+  #holiday_banner {
+	float:left;
+	background-color:#eb922c;
+	height:27px;
+	width:835px;
+	margin:40px 0 0 45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+}
+#holiday_banner div {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	padding:5px 0 5px 50px;
+}
+
+
+.bg_inpage_img_head {
+	FONT-SIZE: 28px; COLOR: #b02a30; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}

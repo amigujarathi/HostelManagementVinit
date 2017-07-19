@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.verinite</groupId>
+	<artifactId>selfie</artifactId>
+	<name>SelfieCard</name>
+	<version>1.0-SNAPSHOT</version>
+	<properties>
+		<java-version>1.6</java-version>
+ 		<org.springframework-version>4.1.7.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.8.6</org.aspectj-version>
+		<org.slf4j-version>1.7.12</org.slf4j-version>
+		 	
+		 
+		<spring.fw.version>3.1.0.RELEASE</spring.fw.version>
+		<slf4j.version>1.5.8</slf4j.version>
+		<jersey.version>2.21</jersey.version>
+		<jackson.version>1.9.13</jackson.version>
+		
+	</properties>
+	<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>com.verinite</id>
+      <name>aas-java</name>
+      <url>http://49.248.35.50:8081/nexus/content/repositories/snapshots/com/verinite/aas-java/0.0.1-SNAPSHOT/</url>   
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
+	<dependencies>
+		<!-- Spring -->
+		
+		
+		<!-- AspectJ -->
+		
+		
+
+	<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+		</dependency>
+
+		
+	
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<dependency>
+     <groupId>com.opencsv</groupId>
+     <artifactId>opencsv</artifactId>
+     <version>3.7</version>
+  </dependency>
+  
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.fw.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.fw.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.fw.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.1.0.RELEASE</version>
+		</dependency>
+
+	
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.1.0.RELEASE</version>
+		</dependency>
+		
+		
+		
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
+		
+	</dependencies>
+	<build>
+	 <pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<compilerArgument>-Xlint:all</compilerArgument>
+					<showWarnings>true</showWarnings>
+					<showDeprecation>true</showDeprecation>
+				</configuration>
+			</plugin>
+<plugin>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-codegen-plugin</artifactId>
+    <version>${cxf.version}</version>
+    <executions>
+        <execution>
+            <id>generate-sources</id>
+            <phase>generate-sources</phase>
+            <configuration> 
+                <sourceRoot>${project.build.directory}/generated-sources/cxf</sourceRoot>
+                <wsdlOptions>
+                    <wsdlOption>
+                        <wsdl>${project.basedir}/src/main/resources/wsdl/CMS_Selfie_Check.wsdl</wsdl>
+                        <wsdlLocation>classpath:wsdl/CMS_Selfie_Check.wsdl</wsdlLocation>
+                    </wsdlOption>
+                </wsdlOptions>
+            </configuration>
+            <goals>
+                <goal>wsdl2java</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+		</plugins>
+		 </pluginManagement>
+	</build>
+	
+	<packaging>war</packaging>
+</project>

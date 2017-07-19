@@ -1,0 +1,437 @@
+/* Basic Properties --------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #363636;
+	line-height: 1.5em;
+	background-color: transparent;
+}
+
+p {
+	padding-bottom: 14px;
+}
+p.upload
+{
+	padding-bottom: 0px;
+	width: 600px;
+	margin-top:0px;
+}
+p.small
+{
+	padding-top: -20px;
+	line-height: 90%;
+}
+
+img {
+	border-width: 0px;
+	border-style: none;
+}
+
+hr {
+	border-top: 1px solid #7B88A4;
+	height: 0px; /* Win IE fix */
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	color: black;
+}
+
+
+/* Page Elements --------------------------------------------- */
+
+#page {
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#content {
+	width: 750px;
+	margin: 23px 0px -22px 129px;
+        padding: 57px;
+}
+
+#content_main {
+	width: 630px;
+    margin: 0px;
+    padding: 0px 60px;
+    background: url(../images/main_bg.png);
+    height: 377px;
+    margin-left: -190px;
+    margin-top: -183px;
+    position: absolute;
+	z-index: 3;
+}
+
+#content_bottom {
+	width: 750px;
+	margin: 0 0 0 1px;
+	padding: 0;
+	height: 17px;
+	background: url(../images/main_bottom_bg.png) top no-repeat;
+	margin-top: 181px;
+    margin-left: -123px;
+	    visibility: hidden;
+}
+
+#flash {
+	width: 750px;
+	height: 450px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* ------------ Tab ------------ */
+
+#content_tab {
+	margin: 0px;
+	padding: 0;
+	width: 750px;
+}
+
+#tab_top {
+	margin: 0;
+	padding: 0 0 0 69px;
+	background: url(../images/tab_top_bg.png) bottom no-repeat;
+	height: 35px;
+	margin-left: -343px;
+    margin-top: 3px;
+    top: 46px;
+    width: 982px;
+    
+    position: absolute;
+}
+
+#tab_middle {
+    clear: both;
+    margin: 81px;
+    padding: 0;
+    background: url(images/tab_middle_bg.png) no-repeat;
+    height: 60px;
+    margin-left: 286px;
+	margin-top: -81px;
+}
+#tab_bottom {
+	
+    margin: 120px;
+    padding: 30px;
+    background: url(../images/tab_bottom_bg.png) top no-repeat;
+    height: 18px;
+    width: 693px;
+    margin-left: -192px
+}
+
+#tab_design {
+	float: left;
+	height: 30px;
+	width: 222px;
+	text-align: center;
+}
+
+#tab_upload {
+	float: left;
+	height: 30px;
+	width: 222px;
+	text-align: center;
+}
+
+#ssg_logo {
+	float: right;
+	width: 112px;
+}
+
+#tab_back {
+	float: left;
+	padding: 0 0 0 6px;
+}
+
+#tab_uploadform, #tab_verifyform {
+	float: left;
+	padding: 0px 0 0 30px;
+}
+
+.active_tab {
+	font-size: 15px;
+	font-weight: 600;
+	padding: 8px 0 0 0;
+	margin: 0;
+	background: url(../images/tab_active_bg.png) no-repeat;
+}
+
+.active_tab a {
+	color: #000000;
+}
+
+.inactive_tab {
+	color: #cccccc;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px 0 0 0;
+	margin: 0;
+	background: url(../images/tab_inactive_bg.png) no-repeat;
+}
+
+.inactive_tab a {
+	color: #363636;
+}
+
+#lbTabBack
+{
+	padding-left:20px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+/* Email Capture ----------------------------*/
+
+#verifyContainer
+{
+	width:650px;
+	height:285px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#dCompetitionCapture
+{
+	margin:10px 0;
+}
+
+#divTermsAndConditions
+{
+	height:30px;
+}
+
+
+#dEmailCapture
+{
+	width:410px;
+	margin:10px 0;
+}
+
+#tab_verifyFormContent
+{
+	width:603px;
+}
+
+#lbVerifyFormText
+{
+	float:left;
+	width:400px;
+	margin-top:15px;
+}
+
+#btSubmit {
+	background-image:url(../images/bt_submit.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:35px;
+	width:140px;
+	border: none;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:Black;
+
+	float:right;
+	margin-top:15px;
+	cursor:pointer;
+}
+
+
+#competitionCapture
+{
+    clear:both;
+}
+
+/* Custom data capture --------------------------------- */
+
+.DataCaptureControl_Table
+{
+	width:630px;
+}
+
+.DataCaptureControl_Table tr, .DataCaptureControl_Table td
+{
+	height:20px;
+	padding:0;
+	margin:0;
+}
+
+#dValidationMessages
+{
+	margin:10px 0 0;
+}
+
+.NumericInputBox
+{
+}
+
+.MandatoryMarker
+{
+    margin-left:5px;
+}
+
+.OutlinedBox
+{
+	border:solid 1px red;	
+}
+
+.MandatoryMarker_Highlighted
+{
+    margin-left:5px;
+    color:red;
+}
+
+.LabelColumn  
+{
+    width:220px;
+}
+
+.ControlColumn  
+{
+    width:300px;
+	text-align:left;
+}
+
+/* Anchors --------------------------------------------- */
+
+a {
+	color: #24418f;
+	text-decoration: none;
+}
+
+/* Character Styles --------------------------------------------- */
+
+cite {
+	font-weight: normal;
+	font-style: italic;
+	color: #666666;
+}
+
+#btnUpload {
+	width: 80px;
+	height: 25px;
+}
+
+#filUploadedImage {
+	height: 25px;
+}
+
+/* Headings --------------------------------------------- */
+
+h1 {
+	color: #000000;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#content_tab h1 {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 8px 0 0 0;
+	margin: 0;
+}
+
+h2 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h3 {
+	color: #24418f;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+h4 {
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.ErrorMessage {
+	color: red;
+}
+
+/* Basic List --------------------------------------------- */
+
+ul, ol {
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+li {
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+li ul {
+	margin-top: 8px;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+}
+
+
+/* --------Demo Terms and Conditions ------------ */
+
+#dTermsAndConditions
+{
+	position:absolute;
+	top:150px;
+	left:150px;
+	width:450px;
+}
+
+#dTermsAndConditions div
+{
+	padding:10px;
+	font-size:10pt;
+	background-color:#fff;
+	border:solid 1px #ccc;
+}
+
+#dTsAndCsOverlay
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#dTermsAndConditions div #closeAnchor
+{
+	float:right;
+}
+#dTermsAndConditions div h3
+{
+	float:left;
+}
+
+#dTermsAndConditions div hr
+{
+	clear:both;
+}
+
+#dTsAndCsOverlay #OverLay
+{
+	background-color:#000;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	-moz-opacity:.50; 
+	filter:alpha(opacity=50); 
+	opacity:.50;
+}
+
+

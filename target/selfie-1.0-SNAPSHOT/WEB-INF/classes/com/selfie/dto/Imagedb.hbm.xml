@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 3, 2017 12:00:30 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.selfie.dto.Imagedb" table="imagedb" catalog="selfie">
+        <id name="cutomerId" type="string">
+            <column name="CUSTOMER_ID" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="nationalId" type="string">
+            <column name="NATIONAL_ID" length="100" />
+        </property>
+          <property name="otp" type="string">
+            <column name="OTP" length="45" />
+        </property>
+         <property name="accountNumber" type="string">
+            <column name="ACCOUNT_NUMBER" length="100" />
+        </property>
+        <property name="mobileNumber" type="java.lang.Long">
+            <column name="MOBILE_NUMBER" />
+        </property>
+        <property name="name" type="string">
+            <column name="NAME" length="50" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="EMAIL_ID" length="100" />
+        </property>
+        <property name="uploadedDate" type="date">
+            <column name="UPLOADED_DATE" length="10" />
+        </property>
+        <property name="actionDate" type="date">
+            <column name="ACTION_DATE" length="10" />
+        </property>
+        <property name="status" type="string">
+            <column name="STATUS" length="100" />
+        </property>
+        <property name="actionedBy" type="string">
+            <column name="ACTIONED_BY" length="100" />
+        </property>
+        <property name="image" type="binary">
+            <column name="IMAGE" />
+        </property>
+        <property name="actionTaken" type="string">
+            <column name="ACTION_TAKEN" length="100" />
+        </property>
+        
+        
+         <property name="rejectReason" type="string">
+            <column name="REJECT_REASON" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

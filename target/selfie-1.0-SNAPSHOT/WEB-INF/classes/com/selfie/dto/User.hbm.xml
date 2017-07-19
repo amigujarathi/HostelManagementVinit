@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 3, 2017 12:00:30 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.selfie.dto.User" table="user" catalog="selfie">
+        <id name="userId" type="string">
+            <column name="USER_ID" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="string">
+            <column name="PASSWORD" length="100" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="STATUS" />
+        </property>
+        <property name="type" type="string">
+            <column name="TYPE" length="100" />
+        </property>
+        <property name="otp" type="string">
+            <column name="OTP" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

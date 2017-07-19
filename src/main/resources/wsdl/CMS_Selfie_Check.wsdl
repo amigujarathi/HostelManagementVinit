@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="CMS_Selfie_Check" targetNamespace="http://CMS_Selfie_Check" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://CMS_Selfie_Check" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <binding hasEncoding="false" imported="true" name="CMS_Selfie_CheckHttpBinding" originalBindingStyle="document"/>
+        <generatedXSD location="CMS_Selfie_Check_InlineSchema1.xsd"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+  
+  
+  
+  <wsdl:types>
+    
+        <xsd:schema targetNamespace="http://CMS_Selfie_Check" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions">
+      <xsd:include schemaLocation="CMS_Selfie_Check_InlineSchema1.xsd"/>
+    </xsd:schema>
+    </wsdl:types>
+  <wsdl:message name="checkCustRequestMsg">
+    <wsdl:part element="tns:checkCust" name="checkCustParameters"/>
+  </wsdl:message>
+  <wsdl:message name="checkCustResponseMsg">
+    <wsdl:part element="tns:checkCustResponse" name="checkCustResult"/>
+  </wsdl:message>
+  <wsdl:portType name="CMS_Selfie_Check">
+    <wsdl:operation name="checkCust">
+            <wsdl:input message="tns:checkCustRequestMsg" name="checkCustRequest"/>
+            <wsdl:output message="tns:checkCustResponseMsg" name="checkCustResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CMS_Selfie_CheckHttpBinding" type="tns:CMS_Selfie_Check">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="checkCust">
+            <soap:operation soapAction="http://CMS_Selfie_Check/checkCust"/>
+            <wsdl:input name="checkCustRequest">
+                <soap:body use="literal"/>
+            </wsdl:input>
+      <wsdl:output name="checkCustResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+    </wsdl:operation>
+    </wsdl:binding>
+  <wsdl:service name="CMS_Selfie_CheckHttpService">
+    <wsdl:port binding="tns:CMS_Selfie_CheckHttpBinding" name="CMS_Selfie_CheckHttpPort">
+      <soap:address location="http://esb-prod.deltavn.vn:7800/CMS_Selfie_Check"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

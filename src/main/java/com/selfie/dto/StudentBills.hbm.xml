@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:58:55 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.selfie.dto.StudentBills" table="student_bills" catalog="hostel">
+        <id name="rollNumber" type="int">
+            <column name="ROLL_NUMBER" />
+            <generator class="assigned" />
+        </id>
+        <property name="studentName" type="string">
+            <column name="STUDENT_NAME" length="245" />
+        </property>
+        <property name="roomRent" type="string">
+            <column name="ROOM_RENT" length="45" />
+        </property>
+        <property name="totalDaysMess" type="string">
+            <column name="TOTAL_DAYS_MESS" length="45" />
+        </property>
+        <property name="total" type="string">
+            <column name="TOTAL" length="45" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="STATUS" />
+        </property>
+    </class>
+</hibernate-mapping>
